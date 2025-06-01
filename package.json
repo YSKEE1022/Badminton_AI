@@ -1,9 +1,17 @@
 {
+  "name": "badminton-bot",
+  "version": "1.0.0",
+  "main": "bot.js",
   "scripts": {
     "start": "node bot.js"
   },
   "dependencies": {
     "open": "^10.1.2",
-    "venom-bot": "^5.3.0"
+    "venom-bot": "^5.3.0",
+    "puppeteer-core": "^21.3.8",
+    "chrome-aws-lambda": "^10.1.0"
+  },
+  "engines": {
+    "node": "18.x"
   }
 }
